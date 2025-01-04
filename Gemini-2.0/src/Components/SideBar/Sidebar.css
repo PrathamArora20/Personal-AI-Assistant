@@ -1,0 +1,15 @@
+.sidebar{
+    min-height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(189, 188, 188);
+    padding: 25px 10px;
+}
+
+.sidebar .menu{
+    display: block;
+    margin-left:10px;
+    cursor: pointer;
+
+}
