@@ -1,0 +1,103 @@
+.main{
+    flex:1;
+    min-height: 100vh;
+    padding-bottom: 15vh;
+    position: relative;
+}
+
+.main .nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    font-size:20px;
+    padding:20px;
+    color:#585858;
+}
+
+.main-container{
+    max-width: 900px;
+    margin: auto;
+}
+
+.main .greating{
+    margin: 50px 0px;
+    font-size: 55px;
+    color: #c4c4c4;
+    font-weight: 500;
+    padding:20px;
+}
+ 
+.main .greating span{
+    background: -webkit-linear-gradient(16deg, #f3ec78, #af4261);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main .cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.main .card{
+    height: 200px;
+    padding: 15px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+}
+
+.main .card .Compass{
+    padding:5px;
+    position: absolute;
+    border-radius: 15px;
+    bottom: 10px;
+    right:5px;
+}
+
+.main .card p{
+    color:#585858;
+    font-size: 19px;
+}
+
+.main .card:hover{
+    background-color: #e6e6e6;
+    transform: scale(1.05); /* Slightly enlarge the card */
+
+}
+
+.bottom-main {
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    max-width: 900px;
+    padding:0px 20px;
+    margin:auto;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+    background-color: #f3f3f3;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+
+}
+
+.search .searchImg{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.search input{
+    border: none;
+    background-color: #f3f3f3;
+    outline: none;
+    font-size: 18px;
+}
